@@ -1,0 +1,177 @@
+*,*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logo{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 150px;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+
+body{
+    background-image: url('../../pictures/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-bottom: 300px;
+    
+}
+
+.task-bar{
+    display: flex;
+    flex-direction: row;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 99.5%;
+    height: 4vh;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.task-button{
+    cursor: pointer;
+
+    width: 5%;
+    height: 90%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.task-button:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 95vh;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px black;
+}
+
+.register{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.text-input{
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 45px;
+    
+    background-color: darkgray;
+    border: none;
+    outline: none;
+
+    transition: background-color 200ms ease-in-out, border 150ms ease-in-out, 50ms border-bottom-left-radius 150ms ;
+}
+
+.text-input:focus{
+    background-color: transparent;
+    cursor: text;
+    border-bottom: 2px solid lightblue;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.text-input:hover{
+    cursor: pointer;
+}
+
+.register-form>p{
+    font-size: 1.45vh;
+    position: relative;
+    
+}
+
+.register-btn{
+    position: relative;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+    width: 180px;
+    height: 35px;
+    
+    margin-top: 5px;
+}
+
+.register-btn:active{
+    border: 1px solid black;
+}
+
+.register-btn:hover{
+    background-color: white;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-input{
+    cursor: pointer;
+    position: relative;
+    left: -20px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    
+    background-color: darkgray;
+    border: none;
+    outline: none;
+
+    transition: background-color 200ms ease-in-out, border 150ms ease-in-out, 50ms border-bottom-left-radius 150ms ;
+}
+
+.date-label{
+    position: relative;
+    left: -20px;
+}
+
+.date-input:focus{
+    background-color: transparent;
+    cursor: text;
+    border-bottom: 2px solid lightblue;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.date-input:hover{
+    cursor: pointer;
+}

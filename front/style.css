@@ -1,0 +1,106 @@
+*,*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logo{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 150px;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    text-shadow: 5px 5px 10px gray;
+}
+
+body{
+    background-image: url('../pictures/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-bottom: 300px;
+    
+}
+
+.task-bar{
+    display: flex;
+    flex-direction: row;
+
+    position: sticky;
+    top: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 99.5%;
+    height: 4vh;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.task-button{
+    cursor: pointer;
+
+    width: 5%;
+    height: 90%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.task-button:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.profile{
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-image: url('../pictures/user.png');
+    background-size: cover;
+}
+
+.profile-menu{
+    position: absolute;
+    visibility: visible;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 150px;
+    height: 250px;
+
+    right: 31.5vw;
+}
+
+.drop-button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    width: 150%;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.drop-button:active{
+    border: 1px solid black;
+}
+
+.drop-button:hover{
+    background-color: lightgray;
+}

@@ -1,0 +1,147 @@
+*,*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/taust.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.task-bar{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 3vh;
+
+    border: 1px solid lightblue;
+    padding: 5px;
+}
+
+.task-button{
+    cursor: pointer;
+    color: lightblue;
+
+    width: 5%;
+    height: 90%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.task-button:hover{
+    background-color: darkgray;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 110vh;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5% ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px lightblue;
+    color: lightblue;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.5vh;
+    text-align: center;
+}
+.wrapper text{
+    font-size: 6px;
+}
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wrapper label{
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+    
+    
+}
+.wrapper button{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.5vh;
+    position: relative;
+}
+
+.message{
+    height: 13vh;
+    width: 40vh;
+    margin-bottom: 20px;
+}
+.firstname{
+    height: 4vh;
+    width: 40vh;
+}
+.lastname{
+    height: 4vh;
+    width: 40vh;
+}
+.subject{ 
+    height: 4vh;
+    width: 40vh;
+}
+.email{
+    height: 4vh;
+    width: 40vh;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lightblue;
+    margin-left: 23%;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 40vh;
+
+}
+
+.submit{
+    height: 5vh;
+    width: 40vh;
+    margin-left: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: lightblue;
+    background-color: rgb(128, 126, 126);
+    text-align: right;
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: red;
+}
