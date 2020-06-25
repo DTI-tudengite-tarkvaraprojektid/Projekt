@@ -17,12 +17,14 @@ Töö tehti digitehnoloogia instituudis suvepraktika raames.<br/>
 * Ralf Vihmaru 
 * Rene Raidmaa 
 * Taavi Vestel.<br/>
-Kui seda tööle panna, on vaja serverit, millel on olemas php tugi. Kasutasime koolis greeny serverit.
-Andmebaaside jaoks kasutasime phpMyAdmin-i, mis on kooli poolt olemas.<br/>
 
 ## Installeerimise juhend
 * Installeerida ja seadistada PHP ja MySQL.
-* Laadida alla GitHub'is olevad failid ning panna need serverisse. 
+* Laadida alla GitHub'is olevad failid ning panna need serverisse.
+* Muuta config fail enda jaoks sobivaks.
+* Võtta SQL fail ning luua MySQL'is andmebaas.
+* Pane server tööle.
+
 Pildid meie projektist:<br/>
 
 ![Pilt avalehest](pictures/avaleht.png)
